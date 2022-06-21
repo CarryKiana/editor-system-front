@@ -19,3 +19,6 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 初始化项目后， `import { createApp } from 'vue'` 报找不到vue声明，根据提示安装 @types/vue 或者新建一个vue的ts声明,这里采用第一种：` yarn add @types/vue -D`
 ## 编辑器相关插件安装
 `yarn add @tmagic/editor@latest @tmagic/form@latest element-plus ` 添加编辑器最新稳定版、自定义属性配置插件、UI组件
+## 运行报错
+`browser.js:16 Uncaught ReferenceError: global is not defined at node_modules/randombytes/browser.js (browser.js:16:14)`，vite以esm的形式载入模块，有些包内部使用node的global，手动修复让global为window
+## 导入路径不能以“.ts”扩展名结束。

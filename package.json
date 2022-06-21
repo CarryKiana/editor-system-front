@@ -10,6 +10,7 @@
   "dependencies": {
     "@tmagic/editor": "^1.0.0-rc.6",
     "@tmagic/form": "^1.0.0-rc.6",
+    "@types/node": "^18.0.0",
     "element-plus": "^2.2.6",
     "vue": "^3.2.25"
   },
