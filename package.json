@@ -8,6 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tmagic/editor": "^1.0.0-rc.6",
+    "@tmagic/form": "^1.0.0-rc.6",
+    "element-plus": "^2.2.6",
     "vue": "^3.2.25"
   },
   "devDependencies": {

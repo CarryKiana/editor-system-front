@@ -17,3 +17,5 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 
 ## vue ts 报错
 初始化项目后， `import { createApp } from 'vue'` 报找不到vue声明，根据提示安装 @types/vue 或者新建一个vue的ts声明,这里采用第一种：` yarn add @types/vue -D`
+## 编辑器相关插件安装
+`yarn add @tmagic/editor@latest @tmagic/form@latest element-plus ` 添加编辑器最新稳定版、自定义属性配置插件、UI组件
