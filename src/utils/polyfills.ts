@@ -3,3 +3,4 @@ export function AddGlobalPolyfill () : void {
     ;(window as any).global = window.globalThis || window
   }
 }
+

@@ -11,8 +11,7 @@ import 'element-plus/dist/index.css'
 import '@tmagic/editor/dist/style.css'
 import '@tmagic/form/dist/style.css'
 
-import { AddGlobalPolyfill } from '@/utils/polyfill.ts'
-AddGlobalPolyfill()
+
 createApp(App)
 .use(ElementPlus, {
   locale: zhCn
@@ -20,3 +19,5 @@ createApp(App)
 .use(MagicEditor)
 .use(MagicFrom)
 .mount('#app')
+
+// console.log(path)
