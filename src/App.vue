@@ -1,22 +1,56 @@
 <script lang="ts" setup>
-import HelloWorld from './components/HelloWorld.vue'
+import { ref } from 'vue'
 
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
+const menu = ref({
+  left: [
+    // 顶部左侧菜单按钮
+  ],
+  center: [
+    // 顶部中间菜单按钮
+  ],
+  right: [
+    // 顶部右侧菜单按钮
+  ]
+})
+
+const data = ref({
+  // 初始化页面数据
+})
+
+const runtimeUrl: string = '/runtime/vue3/playground.html'
+
+const propsConfigs: any[] = [
+  // 组件属性列表
+]
+
+const propsValues: any[] = [
+  // 组件默认值
+]
+
+const componentGroupList = ref([
+  // 组件列表
+])
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <m-editor
+    v-model="data"
+    :menu="menu"
+    :runtime-url="runtimeUrl"
+    :props-configs="propsConfigs"
+    :props-values="propsValues"
+    :component-group-list="componentGroupList"
+  ></m-editor>
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.m-editor {
+  flex: 1;
+  height: 100%;
 }
 </style>

@@ -7,9 +7,12 @@ import MagicFrom from '@tmagic/form'
 
 import App from './App.vue'
 
+import '@/styles/index.scss'
+
 import 'element-plus/dist/index.css'
 import '@tmagic/editor/dist/style.css'
 import '@tmagic/form/dist/style.css'
+
 
 
 createApp(App)
