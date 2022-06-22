@@ -27,3 +27,6 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 ## 引入ts文件报错：导入路径不能以“.ts”扩展名结束，考虑改为*.js
 1.更改为js后缀后在js文件里不能使用ts语法，提示的处理方法不符预期。
 2.删除后缀，工作正常（不能带后缀有点费解，差评）。
+
+## HelloWorld‘ is declared but its value is never read.Vetur(6133)
+vetur 对于vue3的语法不识别，插件禁用后更换为volar
