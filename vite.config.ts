@@ -24,6 +24,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
+      vue: 'vue/dist/vue.esm-bundler.js',
       util: 'rollup-plugin-node-polyfills/polyfills/util',
       sys: 'util',
       events: 'rollup-plugin-node-polyfills/polyfills/events',
