@@ -2,7 +2,7 @@
 import { computed, createApp, ref } from 'vue'
 import { editorService } from '@tmagic/editor';
 import type { MPage } from '@tmagic/schema';
-import StageCore from '@tmagic/stage/dist/types/src/StageCore';
+// import StageCore from '@tmagic/stage/dist/types/src/StageCore';
 
 const page = computed(() => editorService.get<MPage>('page'));
 

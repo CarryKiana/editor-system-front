@@ -357,26 +357,26 @@
     "@daybrush/utils" "^1.4.0"
     framework-utils "^1.1.0"
 
-"@tmagic/core@^1.0.0-rc.6":
-  version "1.0.0-rc.6"
-  resolved "https://registry.npmmirror.com/@tmagic/core/-/core-1.0.0-rc.6.tgz#32099cb8bd34265c012bd93d893157206d51cfee"
-  integrity sha512-3ZKqpBey7x2OqDt1+ANPnj0b3BgEQv4zqIAaWyBETcOpl8WNq4D/yXXQ01RpDdJrFcOhTWscEY5EtEk2l6Ctyg==
+"@tmagic/core@1.0.0-rc.13":
+  version "1.0.0-rc.13"
+  resolved "https://registry.npmmirror.com/@tmagic/core/-/core-1.0.0-rc.13.tgz#184377a3af3cbd44042349316b6f2dbcac456ea4"
+  integrity sha512-xs5NbjZKlxLysdMebh2GMeD+bX6O2edIE8v+UuQtOgKTNb4jH3qqun53c5mkAgWLR48bqQfSoCad65En5siBdQ==
   dependencies:
-    "@tmagic/schema" "^1.0.0-rc.6"
+    "@tmagic/schema" "1.0.0-rc.13"
     events "^3.3.0"
 
-"@tmagic/editor@^1.0.0-rc.6":
-  version "1.0.0-rc.6"
-  resolved "https://registry.npmmirror.com/@tmagic/editor/-/editor-1.0.0-rc.6.tgz#91dbd7ae4e9183462ab0d4cbed05428aeedbb731"
-  integrity sha512-HwcfZ6egConn6ANtbY/t7To9KJFesTuwBVn2IpRj2HAngKo22UGSGrpP4K6qsvGyNgrwDoY78ta8manKIyYL7Q==
+"@tmagic/editor@1.0.0-rc.13":
+  version "1.0.0-rc.13"
+  resolved "https://registry.npmmirror.com/@tmagic/editor/-/editor-1.0.0-rc.13.tgz#6e3ee633bb25b94352d8d504a34591aa61e83045"
+  integrity sha512-CLxSV3lp0aKd7vFfn1LmMOX9BfviGPRDtnzYvzE7/wXn/f1pIoiEkAlMxcX+ucqZXAKfUqb/vBGpsv9wzkS0LA==
   dependencies:
     "@babel/core" "^7.18.0"
     "@element-plus/icons" "0.0.11"
-    "@tmagic/core" "^1.0.0-rc.6"
-    "@tmagic/form" "^1.0.0-rc.6"
-    "@tmagic/schema" "^1.0.0-rc.6"
-    "@tmagic/stage" "^1.0.0-rc.6"
-    "@tmagic/utils" "^1.0.0-rc.6"
+    "@tmagic/core" "1.0.0-rc.13"
+    "@tmagic/form" "1.0.0-rc.13"
+    "@tmagic/schema" "1.0.0-rc.13"
+    "@tmagic/stage" "1.0.0-rc.13"
+    "@tmagic/utils" "1.0.0-rc.13"
     buffer "^6.0.3"
     color "^3.1.3"
     element-plus "^2.2.0"
@@ -388,44 +388,44 @@
     serialize-javascript "^6.0.0"
     vue "^3.2.0"
 
-"@tmagic/form@^1.0.0-rc.6":
-  version "1.0.0-rc.6"
-  resolved "https://registry.npmmirror.com/@tmagic/form/-/form-1.0.0-rc.6.tgz#bee2a27f9aa12d8b133112fd293e8b58b1e39a0e"
-  integrity sha512-Q5riBk3K5ffje2JK7dRyovRiCZAq7tUeXuZX6WxohSKlR2i7pVu2FPrTh0MHhOglmA8tDg5FcvmvmUmbDZwEiQ==
+"@tmagic/form@1.0.0-rc.13":
+  version "1.0.0-rc.13"
+  resolved "https://registry.npmmirror.com/@tmagic/form/-/form-1.0.0-rc.13.tgz#3b149c4ebfe1b2030834432bd3a9798715f05052"
+  integrity sha512-/KXfkG/OfeZqqBii5/eu5/ZGfDKstv2lS5S9XoMt4vvfXuBPaiFgXA/JlsNgIGnZrfQM0kPvxoIs0Rtli3L5qg==
   dependencies:
     "@element-plus/icons" "0.0.11"
-    "@tmagic/utils" "^1.0.0-rc.6"
+    "@tmagic/utils" "1.0.0-rc.13"
     element-plus "^2.2.0"
     lodash-es "^4.17.21"
     moment "^2.29.2"
     sortablejs "^1.14.0"
     vue "^3.2.0"
 
-"@tmagic/schema@^1.0.0-rc.6":
-  version "1.0.0-rc.6"
-  resolved "https://registry.npmmirror.com/@tmagic/schema/-/schema-1.0.0-rc.6.tgz#c9a4d85d60a7b9231d7bd1df523fd4533fa63af6"
-  integrity sha512-x7guEPmILpssmX2bGOsIS2VrYwFA0Hyzc0LlyZ/J9pahKKzeIh/57EtDyNuUp3haHgfBM7Ho9MMSVP13UTSuDQ==
+"@tmagic/schema@1.0.0-rc.13":
+  version "1.0.0-rc.13"
+  resolved "https://registry.npmmirror.com/@tmagic/schema/-/schema-1.0.0-rc.13.tgz#40057ad25dd0cd205dc940acb8130c420eecb5eb"
+  integrity sha512-tr+AqOCPU0nKGy6uJKvAFWbRmAXndSnJv5NXRKPlED+dsZE/8tMNFsHcuWhynWLIFTAUmEQwzXz4VEvNnJvrdw==
 
-"@tmagic/stage@^1.0.0-rc.6":
-  version "1.0.0-rc.6"
-  resolved "https://registry.npmmirror.com/@tmagic/stage/-/stage-1.0.0-rc.6.tgz#9b041c32d92557cc0457c4bb47dbf6e17aa3ffd5"
-  integrity sha512-r1WlXq3TE+5ahkPq5K7gedoYR2nqMxG69uekX5i7A6/iUeVwOGmfnhLS5p2SvdDjy/n/cRj2BtKTHaxvdOuXpA==
+"@tmagic/stage@1.0.0-rc.13":
+  version "1.0.0-rc.13"
+  resolved "https://registry.npmmirror.com/@tmagic/stage/-/stage-1.0.0-rc.13.tgz#677940e79550cdda936c6c33e5310f10f37c3423"
+  integrity sha512-/khqiaCn90eQRGHn+Beu6sSRn0mm+C5ssC36lCWG6RlXnLNYaNiY1GHsB7zj7qUquHTXrD/+ifdYczkqTLdetw==
   dependencies:
     "@scena/guides" "^0.17.0"
-    "@tmagic/core" "^1.0.0-rc.6"
-    "@tmagic/schema" "^1.0.0-rc.6"
-    "@tmagic/utils" "^1.0.0-rc.6"
+    "@tmagic/core" "1.0.0-rc.13"
+    "@tmagic/schema" "1.0.0-rc.13"
+    "@tmagic/utils" "1.0.0-rc.13"
     events "^3.3.0"
     lodash-es "^4.17.21"
-    moveable "^0.29.4"
+    moveable "^0.30.0"
     moveable-helper "^0.4.0"
 
-"@tmagic/utils@^1.0.0-rc.6":
-  version "1.0.0-rc.6"
-  resolved "https://registry.npmmirror.com/@tmagic/utils/-/utils-1.0.0-rc.6.tgz#de26f26222624434f08079768e9eb203ec142bf8"
-  integrity sha512-sCoXgXJw0CPXHabXuuktw1WPentMSurryNR6QAcRoS6MjMY4MEVzQuVgqSj+Yud2sxSpqSxWGTtXVnPjhuxHbQ==
+"@tmagic/utils@1.0.0-rc.13":
+  version "1.0.0-rc.13"
+  resolved "https://registry.npmmirror.com/@tmagic/utils/-/utils-1.0.0-rc.13.tgz#bbf694a1e5a38b1eafe023c67ba19f70719b401a"
+  integrity sha512-XOJBXUDLEKTmx6Rnty7Vo9vp6vOZjN3HCewo8Im5S0UAIXZzXdwW1ym674/FsCzzUukGu16ez2NykjtS6prjSA==
   dependencies:
-    "@tmagic/schema" "^1.0.0-rc.6"
+    "@tmagic/schema" "1.0.0-rc.13"
     moment "^2.29.2"
 
 "@types/lodash-es@^4.17.6":
@@ -1008,7 +1008,7 @@ gensync@^1.0.0-beta.2:
   resolved "https://registry.npmmirror.com/gensync/-/gensync-1.0.0-beta.2.tgz#32a6ee76c3d7f52d46b2b1ae5d93fea8580a25e0"
   integrity sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==
 
-gesto@^1.3.0, gesto@^1.7.0:
+gesto@^1.3.0, gesto@^1.7.0, gesto@^1.9.0:
   version "1.9.0"
   resolved "https://registry.npmmirror.com/gesto/-/gesto-1.9.0.tgz#2500d529a8ac78eec1b2ae79e4be14e7b0f99728"
   integrity sha512-WxzswA0zAHK+hM5WyR8G6PdIMt2d/TEY1lFfkfhC8YHHLO5pM5k8AyGu8lhwyBnrPntomWgLy3xl+iBzLHelew==
@@ -1179,14 +1179,14 @@ moveable-helper@^0.4.0:
     "@daybrush/utils" "^1.0.0"
     scenejs "^1.4.2"
 
-moveable@^0.29.4:
-  version "0.29.9"
-  resolved "https://registry.npmmirror.com/moveable/-/moveable-0.29.9.tgz#7765b5189b256a408392c83a4aadf34e50356878"
-  integrity sha512-JoZRxVV81rxAaShx/3NloQu4+0AnxFNplH/v38gfO9pKTJc7b1QFqkyuqqA7oOSSTUxktRxUtka9VA88BCcEwA==
+moveable@^0.30.0:
+  version "0.30.0"
+  resolved "https://registry.npmmirror.com/moveable/-/moveable-0.30.0.tgz#09e6bed4ebaa9a89bf4d1678005b2640d1886837"
+  integrity sha512-WkIccP2vs7oi7Vtf7c8xmduyF7Kb6+lkJwxSOp+Yx3gFFHUdVTQDO8UhJWwuIrlX5eLymk99bIRi+RPttAK2Yg==
   dependencies:
     "@scena/event-emitter" "^1.0.5"
-    react-compat-moveable "~0.17.9"
-    react-moveable "~0.32.9"
+    react-compat-moveable "~0.18.0"
+    react-moveable "~0.33.0"
     react-simple-compat "^1.2.2"
 
 ms@2.1.2:
@@ -1279,10 +1279,10 @@ react-compat-guides@~0.14.0:
     react-compat-ruler "^0.7.1"
     react-simple-compat "^1.1.0"
 
-react-compat-moveable@~0.17.9:
-  version "0.17.9"
-  resolved "https://registry.npmmirror.com/react-compat-moveable/-/react-compat-moveable-0.17.9.tgz#e2befd3f5612e671c418ff3b9912324e26a514c0"
-  integrity sha512-LS9U1K3eCg7aaj+1tvsoriKpL5M2lbg8fyZfGX3knph6I1liw1k4DrrcAljLy6HAhnyY6EUoUjJ21fDgu51PUA==
+react-compat-moveable@~0.18.0:
+  version "0.18.0"
+  resolved "https://registry.npmmirror.com/react-compat-moveable/-/react-compat-moveable-0.18.0.tgz#2a16ff00ec1c50add093c04c27a31690ccf060de"
+  integrity sha512-ACEFE/GKtyqzJBSQ1cosZtD6cD2uuwFBsyNF/zIeM/JvF4zGae3cUUVchOpfHBjPBnjqiHjKMAaucMXPOTDosQ==
   dependencies:
     "@daybrush/utils" "^1.7.0"
     "@egjs/agent" "^2.2.1"
@@ -1291,11 +1291,11 @@ react-compat-moveable@~0.17.9:
     "@scena/matrix" "^1.1.1"
     css-to-mat "^1.0.3"
     framework-utils "^1.1.0"
-    gesto "^1.7.0"
+    gesto "^1.9.0"
     overlap-area "^1.0.0"
     react-compat-css-styled "^1.0.8"
     react-css-styled "^1.0.3"
-    react-moveable "~0.32.9"
+    react-moveable "~0.33.0"
 
 react-compat-ruler@^0.7.1:
   version "0.7.1"
@@ -1313,10 +1313,10 @@ react-css-styled@^1.0.2, react-css-styled@^1.0.3:
     css-styled "^1.0.0"
     framework-utils "^1.1.0"
 
-react-moveable@~0.32.9:
-  version "0.32.9"
-  resolved "https://registry.npmmirror.com/react-moveable/-/react-moveable-0.32.9.tgz#7c6558716a4f921d68d663be577a44182735e604"
-  integrity sha512-657rbOHxBahdHkffcDZ6jU+wqHdSiNRK1wPmjWpXShjOezvd/lUfKCqB/SEW5ICuzOf23LQqO29anTpC+BWvCA==
+react-moveable@~0.33.0:
+  version "0.33.0"
+  resolved "https://registry.npmmirror.com/react-moveable/-/react-moveable-0.33.0.tgz#7c233fd9f7158dadc58ecbbd61ced34edf1b394c"
+  integrity sha512-ro8dojnbyxHFpfpDCvYwZFF050bHoaVOKTKk3Kvc1Pz863dF7Ejrd3zjdg4ix4xNbZfNsfRKdz0BHgeZzyyzOg==
   dependencies:
     "@daybrush/utils" "^1.7.0"
     "@egjs/agent" "^2.2.1"
@@ -1326,7 +1326,7 @@ react-moveable@~0.32.9:
     "@scena/matrix" "^1.1.1"
     css-to-mat "^1.0.3"
     framework-utils "^1.1.0"
-    gesto "^1.7.0"
+    gesto "^1.9.0"
     overlap-area "^1.0.0"
     react-css-styled "^1.0.3"
 

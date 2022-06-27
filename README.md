@@ -30,3 +30,10 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 
 ## HelloWorld‘ is declared but its value is never read.Vetur(6133)
 vetur 对于vue3的语法不识别，插件禁用后更换为volar
+
+## 安装@tmagic/editor跟@tmagic/form后默认版本为1.0.0-rc.6,运行后报错
+Uncaught (in promise) Error: app下不能添加组件
+at Editor$1.add (editor.ts:297:13)
+at async doAction (BaseService.ts:53:28)
+add @ editor.ts:297
+版本更换为1.0.0-rc.13后错误消失
