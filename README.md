@@ -37,3 +37,5 @@ at Editor$1.add (editor.ts:297:13)
 at async doAction (BaseService.ts:53:28)
 add @ editor.ts:297
 版本更换为1.0.0-rc.13后错误消失
+
+## 完成后能添加组件，能选中组件；无法拖动是正常的，因为render不完整
